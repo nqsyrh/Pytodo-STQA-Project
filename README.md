@@ -130,5 +130,4 @@ Known failures must stay visible until the developers fix the defects. Each fail
 ## Final submission
 
 - Final report: `08_Final_QA_Report/PyTodo_Pro_QA_Report.pdf` (Word: `PyTodo_Pro_QA_Report.docx`)
-- Brief requirement checklist: `Brief_Alignment_Checklist.md`
 - Live demonstration script: `09_Presentation/Live_Demo_Script.md`
