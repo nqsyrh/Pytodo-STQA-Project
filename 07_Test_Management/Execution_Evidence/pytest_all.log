@@ -1,0 +1,545 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+rootdir: /home/claude/realrun
+configfile: pytest.ini
+testpaths: 01_Black_Box, 02_White_Box_Coverage, 04_Web_API, 05_Security_Performance, 06_Automation_Regression
+plugins: platformdirs-4.13.5, anyio-4.15.1
+collecting ... collected 137 items
+
+01_Black_Box/test_black_box.py::test_tc_bb_001 PASSED                    [  0%]
+01_Black_Box/test_black_box.py::test_tc_bb_002 PASSED                    [  1%]
+01_Black_Box/test_black_box.py::test_tc_bb_003 PASSED                    [  2%]
+01_Black_Box/test_black_box.py::test_tc_bb_004 PASSED                    [  2%]
+01_Black_Box/test_black_box.py::test_tc_bb_005 PASSED                    [  3%]
+01_Black_Box/test_black_box.py::test_tc_bb_006 PASSED                    [  4%]
+01_Black_Box/test_black_box.py::test_tc_bb_007 PASSED                    [  5%]
+01_Black_Box/test_black_box.py::test_tc_bb_008 PASSED                    [  5%]
+01_Black_Box/test_black_box.py::test_tc_bb_009 PASSED                    [  6%]
+01_Black_Box/test_black_box.py::test_tc_bb_010 FAILED                    [  7%]
+01_Black_Box/test_black_box.py::test_tc_bb_011 PASSED                    [  8%]
+01_Black_Box/test_black_box.py::test_tc_bb_012 PASSED                    [  8%]
+01_Black_Box/test_black_box.py::test_tc_bb_013 PASSED                    [  9%]
+01_Black_Box/test_black_box.py::test_tc_bb_014 FAILED                    [ 10%]
+01_Black_Box/test_black_box.py::test_tc_bb_015 PASSED                    [ 10%]
+01_Black_Box/test_black_box.py::test_tc_bb_016 PASSED                    [ 11%]
+01_Black_Box/test_black_box.py::test_tc_bb_017 PASSED                    [ 12%]
+01_Black_Box/test_black_box.py::test_tc_bb_018 PASSED                    [ 13%]
+01_Black_Box/test_black_box.py::test_tc_bb_019 PASSED                    [ 13%]
+01_Black_Box/test_black_box.py::test_tc_bb_020 FAILED                    [ 14%]
+01_Black_Box/test_black_box.py::test_tc_bb_021 PASSED                    [ 15%]
+01_Black_Box/test_black_box.py::test_tc_bb_022 PASSED                    [ 16%]
+01_Black_Box/test_black_box.py::test_tc_bb_023 FAILED                    [ 16%]
+01_Black_Box/test_black_box.py::test_tc_bb_024 FAILED                    [ 17%]
+01_Black_Box/test_black_box.py::test_tc_bb_025 PASSED                    [ 18%]
+01_Black_Box/test_black_box.py::test_tc_bb_026 FAILED                    [ 18%]
+01_Black_Box/test_black_box.py::test_tc_bb_027 PASSED                    [ 19%]
+01_Black_Box/test_black_box.py::test_tc_bb_028 PASSED                    [ 20%]
+01_Black_Box/test_black_box.py::test_tc_bb_029 PASSED                    [ 21%]
+01_Black_Box/test_black_box.py::test_tc_bb_030 PASSED                    [ 21%]
+01_Black_Box/test_black_box.py::test_tc_bb_031 PASSED                    [ 22%]
+01_Black_Box/test_black_box.py::test_tc_bb_032 PASSED                    [ 23%]
+01_Black_Box/test_black_box.py::test_tc_bb_033 PASSED                    [ 24%]
+01_Black_Box/test_black_box.py::test_tc_bb_034 PASSED                    [ 24%]
+01_Black_Box/test_black_box.py::test_tc_bb_035 PASSED                    [ 25%]
+01_Black_Box/test_black_box.py::test_tc_bb_036 PASSED                    [ 26%]
+01_Black_Box/test_black_box.py::test_tc_bb_037 PASSED                    [ 27%]
+01_Black_Box/test_black_box.py::test_tc_bb_038 PASSED                    [ 27%]
+01_Black_Box/test_black_box.py::test_tc_bb_039 PASSED                    [ 28%]
+01_Black_Box/test_black_box.py::test_tc_bb_040 PASSED                    [ 29%]
+01_Black_Box/test_black_box.py::test_tc_bb_041 PASSED                    [ 29%]
+01_Black_Box/test_black_box.py::test_tc_bb_042 PASSED                    [ 30%]
+01_Black_Box/test_black_box.py::test_tc_bb_043 PASSED                    [ 31%]
+01_Black_Box/test_black_box.py::test_tc_bb_044 PASSED                    [ 32%]
+01_Black_Box/test_black_box.py::test_tc_bb_045 PASSED                    [ 32%]
+01_Black_Box/test_black_box.py::test_tc_bb_046 FAILED                    [ 33%]
+01_Black_Box/test_black_box.py::test_tc_bb_047 PASSED                    [ 34%]
+01_Black_Box/test_black_box.py::test_tc_bb_048 FAILED                    [ 35%]
+01_Black_Box/test_black_box.py::test_tc_bb_049 FAILED                    [ 35%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_001 PASSED        [ 36%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_002 PASSED        [ 37%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_003 PASSED        [ 37%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_004 FAILED        [ 38%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_005 PASSED        [ 39%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_006 PASSED        [ 40%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_007 PASSED        [ 40%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_008 PASSED        [ 41%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_009 PASSED        [ 42%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_010 FAILED        [ 43%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_011 PASSED        [ 43%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_012 PASSED        [ 44%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_013 PASSED        [ 45%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_014 PASSED        [ 45%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_015 PASSED        [ 46%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_016 PASSED        [ 47%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_017 PASSED        [ 48%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_018 PASSED        [ 48%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_019 PASSED        [ 49%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_020 PASSED        [ 50%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_021 FAILED        [ 51%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_022 PASSED        [ 51%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_023 PASSED        [ 52%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_024 PASSED        [ 53%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_025 PASSED        [ 54%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_026 PASSED        [ 54%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_027 PASSED        [ 55%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_028 PASSED        [ 56%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_029 PASSED        [ 56%]
+04_Web_API/test_api.py::test_tc_api_001 PASSED                           [ 57%]
+04_Web_API/test_api.py::test_tc_api_002 PASSED                           [ 58%]
+04_Web_API/test_api.py::test_tc_api_003 PASSED                           [ 59%]
+04_Web_API/test_api.py::test_tc_api_004 PASSED                           [ 59%]
+04_Web_API/test_api.py::test_tc_api_005 FAILED                           [ 60%]
+04_Web_API/test_api.py::test_tc_api_006 FAILED                           [ 61%]
+04_Web_API/test_api.py::test_tc_api_007 PASSED                           [ 62%]
+04_Web_API/test_api.py::test_tc_api_008 PASSED                           [ 62%]
+04_Web_API/test_api.py::test_tc_api_009 PASSED                           [ 63%]
+04_Web_API/test_api.py::test_tc_api_010 PASSED                           [ 64%]
+04_Web_API/test_api.py::test_tc_api_011 FAILED                           [ 64%]
+04_Web_API/test_api.py::test_tc_api_012 PASSED                           [ 65%]
+04_Web_API/test_api.py::test_tc_api_013 PASSED                           [ 66%]
+04_Web_API/test_api.py::test_tc_api_014 PASSED                           [ 67%]
+04_Web_API/test_api.py::test_tc_api_015 PASSED                           [ 67%]
+04_Web_API/test_api.py::test_tc_api_016 FAILED                           [ 68%]
+04_Web_API/test_api.py::test_tc_api_017 FAILED                           [ 69%]
+04_Web_API/test_api.py::test_tc_api_018 FAILED                           [ 70%]
+04_Web_API/test_api.py::test_tc_api_019 FAILED                           [ 70%]
+04_Web_API/test_api.py::test_tc_api_020 FAILED                           [ 71%]
+04_Web_API/test_api.py::test_tc_api_021 FAILED                           [ 72%]
+04_Web_API/test_api.py::test_tc_api_022 PASSED                           [ 72%]
+04_Web_API/test_api.py::test_tc_api_023 PASSED                           [ 73%]
+04_Web_API/test_api.py::test_tc_api_024 PASSED                           [ 74%]
+04_Web_API/test_api.py::test_tc_api_025 PASSED                           [ 75%]
+04_Web_API/test_api.py::test_tc_api_026 PASSED                           [ 75%]
+04_Web_API/test_api.py::test_tc_api_027 FAILED                           [ 76%]
+04_Web_API/test_api.py::test_tc_api_028 FAILED                           [ 77%]
+04_Web_API/test_api.py::test_tc_api_029 PASSED                           [ 78%]
+04_Web_API/test_api.py::test_tc_api_030 PASSED                           [ 78%]
+04_Web_API/test_api.py::test_tc_api_031 PASSED                           [ 79%]
+04_Web_API/test_api.py::test_tc_api_032 PASSED                           [ 80%]
+04_Web_API/test_api.py::test_tc_api_033 FAILED                           [ 81%]
+04_Web_API/test_api.py::test_tc_api_034 PASSED                           [ 81%]
+04_Web_API/test_api.py::test_tc_api_035 FAILED                           [ 82%]
+04_Web_API/test_api.py::test_tc_api_036 FAILED                           [ 83%]
+04_Web_API/test_api.py::test_tc_api_037 PASSED                           [ 83%]
+04_Web_API/test_api.py::test_tc_api_038 PASSED                           [ 84%]
+04_Web_API/test_api.py::test_tc_api_039 FAILED                           [ 85%]
+04_Web_API/test_api.py::test_tc_api_040 PASSED                           [ 86%]
+04_Web_API/test_api.py::test_tc_api_041 FAILED                           [ 86%]
+04_Web_API/test_api.py::test_tc_api_042 FAILED                           [ 87%]
+04_Web_API/test_api.py::test_tc_api_043 PASSED                           [ 88%]
+04_Web_API/test_api.py::test_tc_api_044 PASSED                           [ 89%]
+04_Web_API/test_api.py::test_tc_api_045 FAILED                           [ 89%]
+04_Web_API/test_api.py::test_tc_api_046 PASSED                           [ 90%]
+05_Security_Performance/test_security.py::test_tc_sec_001 PASSED         [ 91%]
+05_Security_Performance/test_security.py::test_tc_sec_002 PASSED         [ 91%]
+05_Security_Performance/test_security.py::test_tc_sec_003 FAILED         [ 92%]
+05_Security_Performance/test_security.py::test_tc_sec_004 FAILED         [ 93%]
+05_Security_Performance/test_security.py::test_tc_sec_005 FAILED         [ 94%]
+05_Security_Performance/test_security.py::test_tc_sec_006 FAILED         [ 94%]
+05_Security_Performance/test_security.py::test_tc_sec_007 PASSED         [ 95%]
+05_Security_Performance/test_security.py::test_tc_sec_008 FAILED         [ 96%]
+05_Security_Performance/test_security.py::test_tc_sec_009 PASSED         [ 97%]
+05_Security_Performance/test_security.py::test_tc_sec_010 FAILED         [ 97%]
+05_Security_Performance/test_security.py::test_tc_sec_011 PASSED         [ 98%]
+05_Security_Performance/test_security.py::test_tc_sec_012 FAILED         [ 99%]
+05_Security_Performance/test_security.py::test_tc_sec_014 PASSED         [100%]
+
+=================================== FAILURES ===================================
+E   AssertionError: DEF-002: 8-character password refused: Register — PyTodo Pro PyTodo Pro Create an account Password must be at least 8 characters. Username (3-20 chars, letters
+    assert False
+     +  where False = redirected_home(<WrapperTestResponse 917 bytes [200 OK]>)
+/home/claude/realrun/01_Black_Box/test_black_box.py:94: AssertionError: DEF-002: 8-character password refused: Register — PyTodo Pro PyTodo Pro Create an account Password must be at least 8 characters. Username (3-20 chars, letters
+E   AssertionError: DEF-004: duplicate username accepted (redirect to /)
+    assert not True
+     +  where True = redirected_home(<WrapperTestResponse streamed [302 FOUND]>)
+/home/claude/realrun/01_Black_Box/test_black_box.py:122: AssertionError: DEF-004: duplicate username accepted (redirect to /)
+E   AssertionError: DEF-004: duplicate account created but cannot log in
+    assert False
+     +  where False = redirected_home(<WrapperTestResponse streamed [200 OK]>)
+/home/claude/realrun/01_Black_Box/test_black_box.py:167: AssertionError: DEF-004: duplicate account created but cannot log in
+E   AssertionError: DEF-009: blank-title task created
+    assert not True
+     +  where True = any(<generator object test_tc_bb_023.<locals>.<genexpr> at 0x7f5591ffb370>)
+/home/claude/realrun/01_Black_Box/test_black_box.py:190: AssertionError: DEF-009: blank-title task created
+E   AssertionError: DEF-007: '<urgent>' inserted as raw HTML, not shown as text
+    assert '&lt;urgent&gt;' in '<!doctype html>\n<html lang="en">\n<head>\n    <meta charset="utf-8">\n    <title>Tasks — PyTodo Pro</title>\n    <link rel="stylesheet" href="/static/style.css">\n</head>\n<body>\n    <nav class="topnav">\n        <a class="brand" href="/">PyTodo Pro</a>\n        \n        <div class="nav-links">\n            <a href="/">Tasks</a>\n            <a href="/dashboard">Dashboard</a>\n            <span class="nav-user">qa_user1</span>\n            <a href="/logout">Log out</a>\n        </div>\n        \n    </nav>\n    <div class="container">\n        \n<div class="page-header">\n    <h1>My Tasks</h1>\n    <a class="btn" href="/tasks/new">+ New Task</a>\n</div>\n\n<form method="get" class="filters">\n    <select name="category" onchange="this.form.submit()">\n        <option value="">All categories</option>\n        \n        <option value="Personal" >Personal</option>\n        \n        <option value="Study" >Study</option>\n        \n        <option value="Urgent" >Urgent</option>\n        \n        <option value="Work" >Work</option>\n        \n    </select>\n    <select name="status" onchange="this.form.submit()">\n        <option value="">All statuses</option>\n        <option v...type="text" name="q" placeholder="Search title..." value="">\n    <button type="submit">Filter</button>\n</form>\n\n<table class="task-table">\n    <thead>\n        <tr>\n            <th></th>\n            <th>Title</th>\n            <th>Category</th>\n            <th>Due Date</th>\n            <th>Urgency</th>\n            <th></th>\n        </tr>\n    </thead>\n    <tbody>\n        \n        <tr class="">\n            <td>\n                <form method="post" action="/tasks/1/toggle">\n                    <button type="submit" class="check-btn">○</button>\n                </form>\n            </td>\n            <td class="title-cell">Buy milk & eggs <urgent></td>\n            <td>—</td>\n            <td>—</td>\n            <td><span class="badge badge-no-due-date">No due date</span></td>\n            <td class="actions">\n                <a href="/tasks/1/edit">Edit</a>\n                <form method="post" action="/tasks/1/delete" onsubmit="return confirm(\'Delete this task?\');">\n                    <button type="submit" class="link-btn">Delete</button>\n                </form>\n            </td>\n        </tr>\n        \n    </tbody>\n</table>\n\n    </div>\n</body>\n</html>'
+/home/claude/realrun/01_Black_Box/test_black_box.py:199: AssertionError: DEF-007: '<urgent>' inserted as raw HTML, not shown as text
+E   AssertionError: DEF-001: expected 'Due Today', row shows: class=""> ○ Day zero — 2026-11-27 Overdue Edit Delete
+    assert 'Due Today' in 'class="">\n            <td>\n                <form method="post" action="/tasks/1/toggle">\n                    <button type="submit" class="check-btn">○</button>\n                </form>\n            </td>\n            <td class="title-cell">Day zero</td>\n            <td>—</td>\n            <td>2026-11-27</td>\n            <td><span class="badge badge-overdue">Overdue</span></td>\n            <td class="actions">\n                <a href="/tasks/1/edit">Edit</a>\n                <form method="post" action="/tasks/1/delete" onsubmit="return confirm(\'Delete this task?\');">\n                    <button type="submit" class="link-btn">Delete</button>\n                </form>\n            </td>\n        '
+     +  where 'Due Today' = C.L_TODAY
+/home/claude/realrun/01_Black_Box/test_black_box.py:217: AssertionError: DEF-001: expected 'Due Today', row shows: class=""> ○ Day zero — 2026-11-27 Overdue Edit Delete
+E   AssertionError: DEF-001: Overdue = 1 for a task due today
+    assert 1 == 0
+/home/claude/realrun/01_Black_Box/test_black_box.py:374: AssertionError: DEF-001: Overdue = 1 for a task due today
+E   AssertionError: DEF-009: title changed to ''
+    assert '' == 'Keep me'
+      
+      - Keep me
+/home/claude/realrun/01_Black_Box/test_black_box.py:393: AssertionError: DEF-009: title changed to ''
+E   AssertionError: DEF-008: My Tasks returns HTTP 500 after invalid date
+    assert 500 == 200
+     +  where 500 = <WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>.status_code
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:875 Exception on / [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 121, in wrapper
+    return f(*args, **kwargs)
+  File "/home/claude/realrun/app/app.py", line 216, in index
+    tasks = [row_to_task(r, get_category_name(db, r["category_id"])) for r in rows]
+             ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 94, in row_to_task
+    "urgency": compute_urgency(row["due_date"]) if not row["done"] else "Done",
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/helpers.py", line 31, in compute_urgency
+    due = datetime.strptime(due_date_str, "%Y-%m-%d").date()
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/_strptime.py", line 789, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/_strptime.py", line 555, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data '2026-13-45' does not match format '%Y-%m-%d'
+/home/claude/realrun/01_Black_Box/test_black_box.py:401: AssertionError: DEF-008: My Tasks returns HTTP 500 after invalid date
+E   AssertionError: DEF-001: compute_urgency returned 'Overdue' for a task due today
+    assert 'Overdue' == 'Due Today'
+      
+      - Due Today
+      + Overdue
+/home/claude/realrun/02_White_Box_Coverage/test_helpers_unit.py:51: AssertionError: DEF-001: compute_urgency returned 'Overdue' for a task due today
+E   AssertionError: DEF-002: 8 characters rejected (len > 8)
+    assert False is True
+     +  where False = <function is_valid_password at 0x7f5592546a20>('Abcd123!')
+     +    where <function is_valid_password at 0x7f5592546a20> = S.is_valid_password
+/home/claude/realrun/02_White_Box_Coverage/test_helpers_unit.py:85: AssertionError: DEF-002: 8 characters rejected (len > 8)
+E   AssertionError: DEF-003: task completed exactly 7 days ago not counted (age.days < n)
+    assert False is True
+     +  where False = <function completed_in_last_n_days at 0x7f5592546b60>((datetime.datetime(2026, 11, 21, 12, 0) - datetime.timedelta(days=7)), 7, datetime.datetime(2026, 11, 21, 12, 0))
+     +    where <function completed_in_last_n_days at 0x7f5592546b60> = S.completed_in_last_n_days
+     +    and   datetime.timedelta(days=7) = timedelta(days=7)
+/home/claude/realrun/02_White_Box_Coverage/test_helpers_unit.py:138: AssertionError: DEF-003: task completed exactly 7 days ago not counted (age.days < n)
+E   AssertionError: DEF-004: duplicate accepted, HTTP 201 {'id': 2, 'username': 'api_dup'}
+    assert 201 in (400, 409)
+     +  where 201 = <WrapperTestResponse streamed [201 CREATED]>.status_code
+/home/claude/realrun/04_Web_API/test_api.py:47: AssertionError: DEF-004: duplicate accepted, HTTP 201 {'id': 2, 'username': 'api_dup'}
+E   AssertionError: server error HTTP 500 on client input
+    assert not True
+     +  where True = <function is_server_error at 0x7f55925467a0>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)
+     +    where <function is_server_error at 0x7f55925467a0> = S.is_server_error
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:875 Exception on /api/register [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 318, in api_register
+    username = (data.get("username") or "").strip()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+/home/claude/realrun/04_Web_API/test_api.py:18: AssertionError: server error HTTP 500 on client input
+E   AssertionError: DEF-016: categories returned HTTP 200 without login
+    assert 200 == 401
+     +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+/home/claude/realrun/04_Web_API/test_api.py:81: AssertionError: DEF-016: categories returned HTTP 200 without login
+E   AssertionError: server error HTTP 500 on client input
+    assert not True
+     +  where True = <function is_server_error at 0x7f55925467a0>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)
+     +    where <function is_server_error at 0x7f55925467a0> = S.is_server_error
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:875 Exception on /api/tasks [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 130, in wrapper
+    return f(*args, **kwargs)
+  File "/home/claude/realrun/app/app.py", line 405, in api_create_task
+    title = (data.get("title") or "").strip()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'strip'
+/home/claude/realrun/04_Web_API/test_api.py:18: AssertionError: server error HTTP 500 on client input
+E   AssertionError: server error HTTP 500 on client input
+    assert not True
+     +  where True = <function is_server_error at 0x7f55925467a0>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)
+     +    where <function is_server_error at 0x7f55925467a0> = S.is_server_error
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:875 Exception on /api/tasks [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 130, in wrapper
+    return f(*args, **kwargs)
+  File "/home/claude/realrun/app/app.py", line 420, in api_create_task
+    return jsonify(row_to_task(row, get_category_name(db, row["category_id"]))), 201
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 94, in row_to_task
+    "urgency": compute_urgency(row["due_date"]) if not row["done"] else "Done",
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/helpers.py", line 31, in compute_urgency
+    due = datetime.strptime(due_date_str, "%Y-%m-%d").date()
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/_strptime.py", line 789, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/_strptime.py", line 555, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data '2026-13-45' does not match format '%Y-%m-%d'
+/home/claude/realrun/04_Web_API/test_api.py:18: AssertionError: server error HTTP 500 on client input
+E   AssertionError: server error HTTP 500 on client input
+    assert not True
+     +  where True = <function is_server_error at 0x7f55925467a0>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)
+     +    where <function is_server_error at 0x7f55925467a0> = S.is_server_error
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:875 Exception on /api/tasks [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 130, in wrapper
+    return f(*args, **kwargs)
+  File "/home/claude/realrun/app/app.py", line 420, in api_create_task
+    return jsonify(row_to_task(row, get_category_name(db, row["category_id"]))), 201
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 94, in row_to_task
+    "urgency": compute_urgency(row["due_date"]) if not row["done"] else "Done",
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/helpers.py", line 31, in compute_urgency
+    due = datetime.strptime(due_date_str, "%Y-%m-%d").date()
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/_strptime.py", line 789, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/_strptime.py", line 555, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data '21/11/2026' does not match format '%Y-%m-%d'
+/home/claude/realrun/04_Web_API/test_api.py:18: AssertionError: server error HTTP 500 on client input
+E   AssertionError: DEF-011: unknown category accepted, HTTP 201
+    assert 201 == 400
+     +  where 201 = <WrapperTestResponse streamed [201 CREATED]>.status_code
+/home/claude/realrun/04_Web_API/test_api.py:135: AssertionError: DEF-011: unknown category accepted, HTTP 201
+E   AssertionError: DEF-017: error does not mention JSON
+    assert 'json' in '{"error":"title is required"}\n'
+     +  where '{"error":"title is required"}\n' = <built-in method lower of str object at 0x7f5591efa6f0>()
+     +    where <built-in method lower of str object at 0x7f5591efa6f0> = '{"error":"title is required"}\n'.lower
+     +      where '{"error":"title is required"}\n' = get_data(as_text=True)
+     +        where get_data = <WrapperTestResponse 30 bytes [400 BAD REQUEST]>.get_data
+/home/claude/realrun/04_Web_API/test_api.py:142: AssertionError: DEF-017: error does not mention JSON
+E   AssertionError: DEF-013: 5,000-character title accepted (HTTP 201)
+    assert 201 == 400
+     +  where 201 = <WrapperTestResponse streamed [201 CREATED]>.status_code
+/home/claude/realrun/04_Web_API/test_api.py:148: AssertionError: DEF-013: 5,000-character title accepted (HTTP 201)
+E   AssertionError: assert 200 == 400
+     +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+     +    where <WrapperTestResponse streamed [200 OK]> = <function api_tasks at 0x7f55925465c0>(<FlaskClient <Flask 'app'>>, page=-1)
+     +      where <function api_tasks at 0x7f55925465c0> = S.api_tasks
+/home/claude/realrun/04_Web_API/test_api.py:190: AssertionError: assert 200 == 400
+E   AssertionError: assert 200 == 400
+     +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+     +    where <WrapperTestResponse streamed [200 OK]> = <function api_tasks at 0x7f55925465c0>(<FlaskClient <Flask 'app'>>, per_page=0)
+     +      where <function api_tasks at 0x7f55925465c0> = S.api_tasks
+/home/claude/realrun/04_Web_API/test_api.py:196: AssertionError: assert 200 == 400
+E   AssertionError: server error HTTP 500 on client input
+    assert not True
+     +  where True = <function is_server_error at 0x7f55925467a0>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)
+     +    where <function is_server_error at 0x7f55925467a0> = S.is_server_error
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:875 Exception on /api/tasks [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 130, in wrapper
+    return f(*args, **kwargs)
+  File "/home/claude/realrun/app/app.py", line 384, in api_list_tasks
+    rows = db.execute(query, params).fetchall()
+           ~~~~~~~~~~^^^^^^^^^^^^^^^
+sqlite3.OperationalError: near "s": syntax error
+/home/claude/realrun/04_Web_API/test_api.py:18: AssertionError: server error HTTP 500 on client input
+E   assert 200 == 400
+     +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+/home/claude/realrun/04_Web_API/test_api.py:248: assert 200 == 400
+E   AssertionError: DEF-010: string 'false' marked the task as done
+    assert (200 == 400 or not True)
+     +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+/home/claude/realrun/04_Web_API/test_api.py:258: AssertionError: DEF-010: string 'false' marked the task as done
+E   AssertionError: server error HTTP 500 on client input
+    assert not True
+     +  where True = <function is_server_error at 0x7f55925467a0>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)
+     +    where <function is_server_error at 0x7f55925467a0> = S.is_server_error
+------------------------------ Captured log call -------------------------------
+ERROR    app:app.py:875 Exception on /api/tasks/1 [PUT]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.13/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 130, in wrapper
+    return f(*args, **kwargs)
+  File "/home/claude/realrun/app/app.py", line 451, in api_update_task
+    return jsonify(row_to_task(updated, get_category_name(db, updated["category_id"])))
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/app.py", line 94, in row_to_task
+    "urgency": compute_urgency(row["due_date"]) if not row["done"] else "Done",
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/claude/realrun/app/helpers.py", line 31, in compute_urgency
+    due = datetime.strptime(due_date_str, "%Y-%m-%d").date()
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/_strptime.py", line 789, in _strptime_datetime
+    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
+                                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/_strptime.py", line 555, in _strptime
+    raise ValueError("time data %r does not match format %r" %
+                     (data_string, format))
+ValueError: time data '2026-13-45' does not match format '%Y-%m-%d'
+/home/claude/realrun/04_Web_API/test_api.py:18: AssertionError: server error HTTP 500 on client input
+E   AssertionError: DEF-005: unknown id gave HTTP 200 {'result': 'ok'}
+    assert 200 == 404
+     +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+/home/claude/realrun/04_Web_API/test_api.py:292: AssertionError: DEF-005: unknown id gave HTTP 200 {'result': 'ok'}
+E   AssertionError: DEF-005: qa_user1 deleted qa_user2's task
+    assert (200 in (403, 404))
+     +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+/home/claude/realrun/04_Web_API/test_api.py:301: AssertionError: DEF-005: qa_user1 deleted qa_user2's task
+E   AssertionError: DEF-001: {'total': 1, 'open': 1, 'overdue': 1, 'due_soon': 0, 'completed': 0}
+    assert 1 == 0
+/home/claude/realrun/04_Web_API/test_api.py:329: AssertionError: DEF-001: {'total': 1, 'open': 1, 'overdue': 1, 'due_soon': 0, 'completed': 0}
+E   AssertionError: DEF-014: cookie forged with SECRET_KEY from app.py read qa_user2's tasks
+    assert not True
+/home/claude/realrun/05_Security_Performance/test_security.py:72: AssertionError: DEF-014: cookie forged with SECRET_KEY from app.py read qa_user2's tasks
+E   AssertionError: DEF-019: 20 failed logins, no lockout or rate limit
+    assert (429 in [401, 401, 401, 401, 401, 401, ...] or 200 != 200)
+     +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+     +    where <WrapperTestResponse streamed [200 OK]> = <function api_login at 0x7f5592546340>(<FlaskClient <Flask 'app'>>, 'qa_user1')
+     +      where <function api_login at 0x7f5592546340> = S.api_login
+     +      and   'qa_user1' = C.USER1
+/home/claude/realrun/05_Security_Performance/test_security.py:79: AssertionError: DEF-019: 20 failed logins, no lockout or rate limit
+E   AssertionError: DEF-020: cookie still valid after logout
+    assert 200 == 401
+     +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code
+     +    where <WrapperTestResponse streamed [200 OK]> = <function api_tasks at 0x7f55925465c0>(<FlaskClient <Flask 'app'>>)
+     +      where <function api_tasks at 0x7f55925465c0> = S.api_tasks
+/home/claude/realrun/05_Security_Performance/test_security.py:91: AssertionError: DEF-020: cookie still valid after logout
+E   AssertionError: DEF-015: task deleted by forged request
+    assert 404 == 200
+     +  where 404 = <WrapperTestResponse streamed [404 NOT FOUND]>.status_code
+     +    where <WrapperTestResponse streamed [404 NOT FOUND]> = get('/api/tasks/1')
+     +      where get = <FlaskClient <Flask 'app'>>.get
+     +      and   '/api/tasks/1' = <function api at 0x7f5592546200>('task', id=1)
+     +        where <function api at 0x7f5592546200> = S.api
+/home/claude/realrun/05_Security_Performance/test_security.py:101: AssertionError: DEF-015: task deleted by forged request
+E   AssertionError: DEF-005: cross-user delete succeeded
+    assert 404 == 200
+     +  where 404 = <WrapperTestResponse streamed [404 NOT FOUND]>.status_code
+     +    where <WrapperTestResponse streamed [404 NOT FOUND]> = get('/api/tasks/1')
+     +      where get = <FlaskClient <Flask 'app'>>.get
+     +      and   '/api/tasks/1' = <function api at 0x7f5592546200>('task', id=1)
+     +        where <function api at 0x7f5592546200> = S.api
+/home/claude/realrun/05_Security_Performance/test_security.py:116: AssertionError: DEF-005: cross-user delete succeeded
+E   AssertionError: DEF-006: SQL injection leaked another user's task
+    assert 'qa_user2 diary' not in '[{"category...ue date"}]\n'
+      
+      'qa_user2 diary' is contained here:
+        [{"category":null,"category_id":null,"completed_at":null,"created_at":"2026-11-27T18:13:05.638797","description":"","done":false,"due_date":null,"id":2,"title":"mine","urgency":"No due date"},{"category":null,"category_id":null,"completed_at":null,"created_at":"2026-11-27T18:13:05.627125","description":"","done":false,"due_date":null,"id":1,"title":"qa_user2 diary","urgency":"No due date"}]
+      ?                                                                                                                                                             ...
+      
+      ...Full output truncated (1 line hidden), use '-vv' to show
+/home/claude/realrun/05_Security_Performance/test_security.py:132: AssertionError: DEF-006: SQL injection leaked another user's task
+E   AssertionError: DEF-007: stored XSS - script rendered unescaped
+    assert '<script>alert(1)</script>' not in '<!doctype h...dy>\n</html>'
+      
+      '<script>alert(1)</script>' is contained here:
+        <!doctype html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8">
+            <title>Tasks — PyTodo Pro</title>...
+      
+      ...Full output truncated (81 lines hidden), use '-vv' to show
+/home/claude/realrun/05_Security_Performance/test_security.py:150: AssertionError: DEF-007: stored XSS - script rendered unescaped
+-------- generated xml file: /home/claude/realrun/reports/junit_all.xml --------
+=========================== short test summary info ============================
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_010 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_014 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_020 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_023 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_024 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_026 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_046 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_048 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_049 - AssertionError: DEF-0...
+FAILED 02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_004 - Assertion...
+FAILED 02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_010 - Assertion...
+FAILED 02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_021 - Assertion...
+FAILED 04_Web_API/test_api.py::test_tc_api_005 - AssertionError: DEF-004: dup...
+FAILED 04_Web_API/test_api.py::test_tc_api_006 - AssertionError: server error...
+FAILED 04_Web_API/test_api.py::test_tc_api_011 - AssertionError: DEF-016: cat...
+FAILED 04_Web_API/test_api.py::test_tc_api_016 - AssertionError: server error...
+FAILED 04_Web_API/test_api.py::test_tc_api_017 - AssertionError: server error...
+FAILED 04_Web_API/test_api.py::test_tc_api_018 - AssertionError: server error...
+FAILED 04_Web_API/test_api.py::test_tc_api_019 - AssertionError: DEF-011: unk...
+FAILED 04_Web_API/test_api.py::test_tc_api_020 - AssertionError: DEF-017: err...
+FAILED 04_Web_API/test_api.py::test_tc_api_021 - AssertionError: DEF-013: 5,0...
+FAILED 04_Web_API/test_api.py::test_tc_api_027 - AssertionError: assert 200 =...
+FAILED 04_Web_API/test_api.py::test_tc_api_028 - AssertionError: assert 200 =...
+FAILED 04_Web_API/test_api.py::test_tc_api_033 - AssertionError: server error...
+FAILED 04_Web_API/test_api.py::test_tc_api_035 - assert 200 == 400
+FAILED 04_Web_API/test_api.py::test_tc_api_036 - AssertionError: DEF-010: str...
+FAILED 04_Web_API/test_api.py::test_tc_api_039 - AssertionError: server error...
+FAILED 04_Web_API/test_api.py::test_tc_api_041 - AssertionError: DEF-005: unk...
+FAILED 04_Web_API/test_api.py::test_tc_api_042 - AssertionError: DEF-005: qa_...
+FAILED 04_Web_API/test_api.py::test_tc_api_045 - AssertionError: DEF-001: {'t...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_003 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_004 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_005 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_006 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_008 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_010 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_012 - AssertionE...
+======================= 37 failed, 100 passed in 19.10s ========================

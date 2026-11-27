@@ -1,0 +1,687 @@
+{
+  "TC-API-001": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-002": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-003": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-004": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-005": {
+    "defect": "DEF-004",
+    "detail": "AssertionError: DEF-004: duplicate accepted, HTTP 201 {'id': 2, 'username': 'api_dup'}\nassert 201 in (400, 409)\n +  where 201 = <WrapperTestResponse streamed [201 CREATED]>.status_code",
+    "status": "Fail"
+  },
+  "TC-API-006": {
+    "defect": "DEF-018",
+    "detail": "AssertionError: server error HTTP 500 on client input\nassert not True\n +  where True = <function is_server_error at 0x7fb745a57880>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)\n +    where <function is_server_error at 0x7fb745a57880> = S.is_server_error",
+    "status": "Fail"
+  },
+  "TC-API-007": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-008": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-009": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-010": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-011": {
+    "defect": "DEF-016",
+    "detail": "AssertionError: DEF-016: categories returned HTTP 200 without login\nassert 200 == 401\n +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code",
+    "status": "Fail"
+  },
+  "TC-API-012": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-013": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-014": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-015": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-016": {
+    "defect": "DEF-018",
+    "detail": "AssertionError: server error HTTP 500 on client input\nassert not True\n +  where True = <function is_server_error at 0x7fb745a57880>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)\n +    where <function is_server_error at 0x7fb745a57880> = S.is_server_error",
+    "status": "Fail"
+  },
+  "TC-API-017": {
+    "defect": "DEF-008",
+    "detail": "AssertionError: server error HTTP 500 on client input\nassert not True\n +  where True = <function is_server_error at 0x7fb745a57880>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)\n +    where <function is_server_error at 0x7fb745a57880> = S.is_server_error",
+    "status": "Fail"
+  },
+  "TC-API-018": {
+    "defect": "DEF-008",
+    "detail": "AssertionError: server error HTTP 500 on client input\nassert not True\n +  where True = <function is_server_error at 0x7fb745a57880>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)\n +    where <function is_server_error at 0x7fb745a57880> = S.is_server_error",
+    "status": "Fail"
+  },
+  "TC-API-019": {
+    "defect": "DEF-011",
+    "detail": "AssertionError: DEF-011: unknown category accepted, HTTP 201\nassert 201 == 400\n +  where 201 = <WrapperTestResponse streamed [201 CREATED]>.status_code",
+    "status": "Fail"
+  },
+  "TC-API-020": {
+    "defect": "DEF-017",
+    "detail": "AssertionError: DEF-017: error does not mention JSON\nassert 'json' in '{\"error\":\"title is required\"}\\n'\n +  where '{\"error\":\"title is required\"}\\n' = <built-in method lower of str object at 0x7fb7452a4cb0>()\n +    where <built-in method lower of str object at 0x7fb7452a4cb0> = '{\"error\":\"title is required\"}\\n'.lower\n +      where '{\"error\":\"title is required\"}\\n' = get_data(as_text=True)\n +        where get_data = <WrapperTestResponse 30 bytes [400 BAD REQUEST]>.get_data",
+    "status": "Fail"
+  },
+  "TC-API-021": {
+    "defect": "DEF-013",
+    "detail": "AssertionError: DEF-013: 5,000-character title accepted (HTTP 201)\nassert 201 == 400\n +  where 201 = <WrapperTestResponse streamed [201 CREATED]>.status_code",
+    "status": "Fail"
+  },
+  "TC-API-022": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-023": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-024": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-025": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-026": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-027": {
+    "defect": "DEF-012",
+    "detail": "AssertionError: assert 200 == 400\n +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code\n +    where <WrapperTestResponse streamed [200 OK]> = <function api_tasks at 0x7fb745a576a0>(<FlaskClient <Flask 'app'>>, page=-1)\n +      where <function api_tasks at 0x7fb745a576a0> = S.api_tasks",
+    "status": "Fail"
+  },
+  "TC-API-028": {
+    "defect": "DEF-012",
+    "detail": "AssertionError: assert 200 == 400\n +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code\n +    where <WrapperTestResponse streamed [200 OK]> = <function api_tasks at 0x7fb745a576a0>(<FlaskClient <Flask 'app'>>, per_page=0)\n +      where <function api_tasks at 0x7fb745a576a0> = S.api_tasks",
+    "status": "Fail"
+  },
+  "TC-API-029": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-030": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-031": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-032": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-033": {
+    "defect": "DEF-006",
+    "detail": "AssertionError: server error HTTP 500 on client input\nassert not True\n +  where True = <function is_server_error at 0x7fb745a57880>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)\n +    where <function is_server_error at 0x7fb745a57880> = S.is_server_error",
+    "status": "Fail"
+  },
+  "TC-API-034": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-035": {
+    "defect": "DEF-009",
+    "detail": "assert 200 == 400\n +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code",
+    "status": "Fail"
+  },
+  "TC-API-036": {
+    "defect": "DEF-010",
+    "detail": "AssertionError: DEF-010: string 'false' marked the task as done\nassert (200 == 400 or not True)\n +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code",
+    "status": "Fail"
+  },
+  "TC-API-037": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-038": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-039": {
+    "defect": "DEF-008",
+    "detail": "AssertionError: server error HTTP 500 on client input\nassert not True\n +  where True = <function is_server_error at 0x7fb745a57880>(<WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>)\n +    where <function is_server_error at 0x7fb745a57880> = S.is_server_error",
+    "status": "Fail"
+  },
+  "TC-API-040": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-041": {
+    "defect": "DEF-005",
+    "detail": "AssertionError: DEF-005: unknown id gave HTTP 200 {'result': 'ok'}\nassert 200 == 404\n +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code",
+    "status": "Fail"
+  },
+  "TC-API-042": {
+    "defect": "DEF-005",
+    "detail": "AssertionError: DEF-005: qa_user1 deleted qa_user2's task\nassert (200 in (403, 404))\n +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code",
+    "status": "Fail"
+  },
+  "TC-API-043": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-044": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-API-045": {
+    "defect": "DEF-001",
+    "detail": "AssertionError: DEF-001: {'total': 1, 'open': 1, 'overdue': 1, 'due_soon': 0, 'completed': 0}\nassert 1 == 0",
+    "status": "Fail"
+  },
+  "TC-API-046": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-001": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-002": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-003": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-004": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-005": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-006": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-007": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-008": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-009": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-010": {
+    "defect": "DEF-002",
+    "detail": "AssertionError: DEF-002: 8-character password refused: Register \u2014 PyTodo Pro PyTodo Pro Create an account Password must be at least 8 characters. Username (3-20 chars, letters\nassert False\n +  where False = redirected_home(<WrapperTestResponse 917 bytes [200 OK]>)",
+    "status": "Fail"
+  },
+  "TC-BB-011": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-012": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-013": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-014": {
+    "defect": "DEF-004",
+    "detail": "AssertionError: DEF-004: duplicate username accepted (redirect to /)\nassert not True\n +  where True = redirected_home(<WrapperTestResponse streamed [302 FOUND]>)",
+    "status": "Fail"
+  },
+  "TC-BB-015": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-016": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-017": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-018": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-019": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-020": {
+    "defect": "DEF-004",
+    "detail": "AssertionError: DEF-004: duplicate account created but cannot log in\nassert False\n +  where False = redirected_home(<WrapperTestResponse streamed [200 OK]>)",
+    "status": "Fail"
+  },
+  "TC-BB-021": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-022": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-023": {
+    "defect": "DEF-009",
+    "detail": "AssertionError: DEF-009: blank-title task created\nassert not True\n +  where True = any(<generator object test_tc_bb_023.<locals>.<genexpr> at 0x7fb745233780>)",
+    "status": "Fail"
+  },
+  "TC-BB-024": {
+    "defect": "DEF-007",
+    "detail": "AssertionError: DEF-007: '<urgent>' inserted as raw HTML, not shown as text\nassert '&lt;urgent&gt;' in '<!doctype html>\\n<html lang=\"en\">\\n<head>\\n    <meta charset=\"utf-8\">\\n    <title>Tasks \u2014 PyTodo Pro</title>\\n    <li...           </form>\\n            </td>\\n        </tr>\\n        \\n    </tbody>\\n</table>\\n\\n    </div>\\n</body>\\n</html>'",
+    "status": "Fail"
+  },
+  "TC-BB-025": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-026": {
+    "defect": "DEF-001",
+    "detail": "AssertionError: DEF-001: expected 'Due Today', row shows: class=\"\"> \u25cb Day zero \u2014 2026-11-27 Overdue Edit Delete\nassert 'Due Today' in 'class=\"\">\\n            <td>\\n                <form method=\"post\" action=\"/tasks/1/toggle\">\\n                    <butt...          <button type=\"submit\" class=\"link-btn\">Delete</button>\\n                </form>\\n            </td>\\n        '\n +  where 'Due Today' = C.L_TODAY",
+    "status": "Fail"
+  },
+  "TC-BB-027": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-028": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-029": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-030": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-031": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-032": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-033": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-034": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-035": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-036": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-037": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-038": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-039": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-040": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-041": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-042": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-043": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-044": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-045": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-046": {
+    "defect": "DEF-001",
+    "detail": "AssertionError: DEF-001: Overdue = 1 for a task due today\nassert 1 == 0",
+    "status": "Fail"
+  },
+  "TC-BB-047": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-BB-048": {
+    "defect": "DEF-009",
+    "detail": "AssertionError: DEF-009: title changed to ''\nassert '' == 'Keep me'\n  \n  - Keep me",
+    "status": "Fail"
+  },
+  "TC-BB-049": {
+    "defect": "DEF-008",
+    "detail": "AssertionError: DEF-008: My Tasks returns HTTP 500 after invalid date\nassert 500 == 200\n +  where 500 = <WrapperTestResponse streamed [500 INTERNAL SERVER ERROR]>.status_code",
+    "status": "Fail"
+  },
+  "TC-SEC-001": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-SEC-002": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-SEC-003": {
+    "defect": "DEF-014",
+    "detail": "AssertionError: DEF-014: cookie forged with SECRET_KEY from app.py read qa_user2's tasks\nassert not True",
+    "status": "Fail"
+  },
+  "TC-SEC-004": {
+    "defect": "DEF-019",
+    "detail": "AssertionError: DEF-019: 20 failed logins, no lockout or rate limit\nassert (429 in [401, 401, 401, 401, 401, 401, ...] or 200 != 200)\n +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code\n +    where <WrapperTestResponse streamed [200 OK]> = <function api_login at 0x7fb745a57420>(<FlaskClient <Flask 'app'>>, 'qa_user1')\n +      where <function api_login at 0x7fb745a57420> = S.api_login\n +      and   'qa_user1' = C.USER1",
+    "status": "Fail"
+  },
+  "TC-SEC-005": {
+    "defect": "DEF-020",
+    "detail": "AssertionError: DEF-020: cookie still valid after logout\nassert 200 == 401\n +  where 200 = <WrapperTestResponse streamed [200 OK]>.status_code\n +    where <WrapperTestResponse streamed [200 OK]> = <function api_tasks at 0x7fb745a576a0>(<FlaskClient <Flask 'app'>>)\n +      where <function api_tasks at 0x7fb745a576a0> = S.api_tasks",
+    "status": "Fail"
+  },
+  "TC-SEC-006": {
+    "defect": "DEF-015",
+    "detail": "AssertionError: DEF-015: task deleted by forged request\nassert 404 == 200\n +  where 404 = <WrapperTestResponse streamed [404 NOT FOUND]>.status_code\n +    where <WrapperTestResponse streamed [404 NOT FOUND]> = get('/api/tasks/1')\n +      where get = <FlaskClient <Flask 'app'>>.get\n +      and   '/api/tasks/1' = <function api at 0x7fb745a572e0>('task', id=1)\n +        where <function api at 0x7fb745a572e0> = S.api",
+    "status": "Fail"
+  },
+  "TC-SEC-007": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-SEC-008": {
+    "defect": "DEF-005",
+    "detail": "AssertionError: DEF-005: cross-user delete succeeded\nassert 404 == 200\n +  where 404 = <WrapperTestResponse streamed [404 NOT FOUND]>.status_code\n +    where <WrapperTestResponse streamed [404 NOT FOUND]> = get('/api/tasks/1')\n +      where get = <FlaskClient <Flask 'app'>>.get\n +      and   '/api/tasks/1' = <function api at 0x7fb745a572e0>('task', id=1)\n +        where <function api at 0x7fb745a572e0> = S.api",
+    "status": "Fail"
+  },
+  "TC-SEC-009": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-SEC-010": {
+    "defect": "DEF-006",
+    "detail": "AssertionError: DEF-006: SQL injection leaked another user's task\nassert 'qa_user2 diary' not in '[{\"category...ue date\"}]\\n'\n  \n  'qa_user2 diary' is contained here:\n    ,\"title\":\"qa_user2 diary\",\"urgency\":\"No due date\"}]\n  ?           ++++++++++++++",
+    "status": "Fail"
+  },
+  "TC-SEC-011": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-SEC-012": {
+    "defect": "DEF-007",
+    "detail": "AssertionError: DEF-007: stored XSS - script rendered unescaped\nassert '<script>alert(1)</script>' not in '<!doctype h...dy>\\n</html>'\n  \n  '<script>alert(1)</script>' is contained here:\n    le-cell\"><script>alert(1)</script></td>\n                <td>\u2014</td>\n                <td>\u2014</td>\n                <td><span class=\"badge badge-no-due-date\">No due date</span></td>\n                <td class=\"actions\">...\n  \n  ...Full output truncated (13 lines hidden), use '-vv' to show",
+    "status": "Fail"
+  },
+  "TC-SEC-014": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-001": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-002": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-003": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-004": {
+    "defect": "DEF-001",
+    "detail": "AssertionError: DEF-001: compute_urgency returned 'Overdue' for a task due today\nassert 'Overdue' == 'Due Today'\n  \n  - Due Today\n  + Overdue",
+    "status": "Fail"
+  },
+  "TC-WB-005": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-006": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-007": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-008": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-009": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-010": {
+    "defect": "DEF-002",
+    "detail": "AssertionError: DEF-002: 8 characters rejected (len > 8)\nassert False is True\n +  where False = <function is_valid_password at 0x7fb745a57b00>('Abcd123!')\n +    where <function is_valid_password at 0x7fb745a57b00> = S.is_valid_password",
+    "status": "Fail"
+  },
+  "TC-WB-011": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-012": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-013": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-014": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-015": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-016": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-017": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-018": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-019": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-020": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-021": {
+    "defect": "DEF-003",
+    "detail": "AssertionError: DEF-003: task completed exactly 7 days ago not counted (age.days < n)\nassert False is True\n +  where False = <function completed_in_last_n_days at 0x7fb745a57c40>((datetime.datetime(2026, 11, 21, 12, 0) - datetime.timedelta(days=7)), 7, datetime.datetime(2026, 11, 21, 12, 0))\n +    where <function completed_in_last_n_days at 0x7fb745a57c40> = S.completed_in_last_n_days\n +    and   datetime.timedelta(days=7) = timedelta(days=7)",
+    "status": "Fail"
+  },
+  "TC-WB-022": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-023": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-024": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-025": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-026": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-027": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-028": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  },
+  "TC-WB-029": {
+    "defect": "",
+    "detail": "",
+    "status": "Pass"
+  }
+}

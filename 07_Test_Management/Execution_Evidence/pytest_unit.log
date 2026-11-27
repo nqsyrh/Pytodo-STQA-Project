@@ -1,0 +1,61 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+rootdir: /home/claude/realrun
+configfile: pytest.ini
+testpaths: 01_Black_Box, 02_White_Box_Coverage, 04_Web_API, 05_Security_Performance, 06_Automation_Regression
+plugins: platformdirs-4.13.5, anyio-4.15.1
+collecting ... collected 137 items / 108 deselected / 29 selected
+
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_001 PASSED        [  3%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_002 PASSED        [  6%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_003 PASSED        [ 10%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_004 FAILED        [ 13%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_005 PASSED        [ 17%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_006 PASSED        [ 20%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_007 PASSED        [ 24%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_008 PASSED        [ 27%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_009 PASSED        [ 31%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_010 FAILED        [ 34%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_011 PASSED        [ 37%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_012 PASSED        [ 41%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_013 PASSED        [ 44%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_014 PASSED        [ 48%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_015 PASSED        [ 51%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_016 PASSED        [ 55%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_017 PASSED        [ 58%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_018 PASSED        [ 62%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_019 PASSED        [ 65%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_020 PASSED        [ 68%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_021 FAILED        [ 72%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_022 PASSED        [ 75%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_023 PASSED        [ 79%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_024 PASSED        [ 82%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_025 PASSED        [ 86%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_026 PASSED        [ 89%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_027 PASSED        [ 93%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_028 PASSED        [ 96%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_029 PASSED        [100%]
+
+=================================== FAILURES ===================================
+E   AssertionError: DEF-001: compute_urgency returned 'Overdue' for a task due today
+    assert 'Overdue' == 'Due Today'
+      
+      - Due Today
+      + Overdue
+/home/claude/realrun/02_White_Box_Coverage/test_helpers_unit.py:51: AssertionError: DEF-001: compute_urgency returned 'Overdue' for a task due today
+E   AssertionError: DEF-002: 8 characters rejected (len > 8)
+    assert False is True
+     +  where False = <function is_valid_password at 0x7fbbd011aa20>('Abcd123!')
+     +    where <function is_valid_password at 0x7fbbd011aa20> = S.is_valid_password
+/home/claude/realrun/02_White_Box_Coverage/test_helpers_unit.py:85: AssertionError: DEF-002: 8 characters rejected (len > 8)
+E   AssertionError: DEF-003: task completed exactly 7 days ago not counted (age.days < n)
+    assert False is True
+     +  where False = <function completed_in_last_n_days at 0x7fbbd011ab60>((datetime.datetime(2026, 11, 21, 12, 0) - datetime.timedelta(days=7)), 7, datetime.datetime(2026, 11, 21, 12, 0))
+     +    where <function completed_in_last_n_days at 0x7fbbd011ab60> = S.completed_in_last_n_days
+     +    and   datetime.timedelta(days=7) = timedelta(days=7)
+/home/claude/realrun/02_White_Box_Coverage/test_helpers_unit.py:138: AssertionError: DEF-003: task completed exactly 7 days ago not counted (age.days < n)
+=========================== short test summary info ============================
+FAILED 02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_004 - Assertion...
+FAILED 02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_010 - Assertion...
+FAILED 02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_021 - Assertion...
+================= 3 failed, 26 passed, 108 deselected in 0.93s =================

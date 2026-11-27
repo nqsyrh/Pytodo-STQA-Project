@@ -1,0 +1,82 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+rootdir: /home/claude/realrun
+configfile: pytest.ini
+testpaths: 01_Black_Box, 02_White_Box_Coverage, 04_Web_API, 05_Security_Performance, 06_Automation_Regression
+plugins: platformdirs-4.13.5, anyio-4.15.1
+collecting ... collected 137 items / 89 deselected / 48 selected
+
+01_Black_Box/test_black_box.py::test_tc_bb_002 PASSED                    [  2%]
+01_Black_Box/test_black_box.py::test_tc_bb_005 PASSED                    [  4%]
+01_Black_Box/test_black_box.py::test_tc_bb_009 PASSED                    [  6%]
+01_Black_Box/test_black_box.py::test_tc_bb_010 FAILED                    [  8%]
+01_Black_Box/test_black_box.py::test_tc_bb_013 PASSED                    [ 10%]
+01_Black_Box/test_black_box.py::test_tc_bb_014 FAILED                    [ 12%]
+01_Black_Box/test_black_box.py::test_tc_bb_017 PASSED                    [ 14%]
+01_Black_Box/test_black_box.py::test_tc_bb_021 PASSED                    [ 16%]
+01_Black_Box/test_black_box.py::test_tc_bb_023 FAILED                    [ 18%]
+01_Black_Box/test_black_box.py::test_tc_bb_024 FAILED                    [ 20%]
+01_Black_Box/test_black_box.py::test_tc_bb_025 PASSED                    [ 22%]
+01_Black_Box/test_black_box.py::test_tc_bb_026 FAILED                    [ 25%]
+01_Black_Box/test_black_box.py::test_tc_bb_027 PASSED                    [ 27%]
+01_Black_Box/test_black_box.py::test_tc_bb_029 PASSED                    [ 29%]
+01_Black_Box/test_black_box.py::test_tc_bb_032 PASSED                    [ 31%]
+01_Black_Box/test_black_box.py::test_tc_bb_033 PASSED                    [ 33%]
+01_Black_Box/test_black_box.py::test_tc_bb_034 PASSED                    [ 35%]
+01_Black_Box/test_black_box.py::test_tc_bb_037 PASSED                    [ 37%]
+01_Black_Box/test_black_box.py::test_tc_bb_039 PASSED                    [ 39%]
+01_Black_Box/test_black_box.py::test_tc_bb_045 PASSED                    [ 41%]
+01_Black_Box/test_black_box.py::test_tc_bb_046 FAILED                    [ 43%]
+01_Black_Box/test_black_box.py::test_tc_bb_049 FAILED                    [ 45%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_001 PASSED        [ 47%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_003 PASSED        [ 50%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_004 FAILED        [ 52%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_005 PASSED        [ 54%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_007 PASSED        [ 56%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_010 FAILED        [ 58%]
+02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_021 FAILED        [ 60%]
+04_Web_API/test_api.py::test_tc_api_001 PASSED                           [ 62%]
+04_Web_API/test_api.py::test_tc_api_005 FAILED                           [ 64%]
+04_Web_API/test_api.py::test_tc_api_007 PASSED                           [ 66%]
+04_Web_API/test_api.py::test_tc_api_013 PASSED                           [ 68%]
+04_Web_API/test_api.py::test_tc_api_017 FAILED                           [ 70%]
+04_Web_API/test_api.py::test_tc_api_024 PASSED                           [ 72%]
+04_Web_API/test_api.py::test_tc_api_033 FAILED                           [ 75%]
+04_Web_API/test_api.py::test_tc_api_035 FAILED                           [ 77%]
+04_Web_API/test_api.py::test_tc_api_036 FAILED                           [ 79%]
+04_Web_API/test_api.py::test_tc_api_040 PASSED                           [ 81%]
+04_Web_API/test_api.py::test_tc_api_042 FAILED                           [ 83%]
+04_Web_API/test_api.py::test_tc_api_043 PASSED                           [ 85%]
+04_Web_API/test_api.py::test_tc_api_045 FAILED                           [ 87%]
+05_Security_Performance/test_security.py::test_tc_sec_003 FAILED         [ 89%]
+05_Security_Performance/test_security.py::test_tc_sec_006 FAILED         [ 91%]
+05_Security_Performance/test_security.py::test_tc_sec_008 FAILED         [ 93%]
+05_Security_Performance/test_security.py::test_tc_sec_009 PASSED         [ 95%]
+05_Security_Performance/test_security.py::test_tc_sec_010 FAILED         [ 97%]
+05_Security_Performance/test_security.py::test_tc_sec_012 FAILED         [100%]
+
+---- generated xml file: /home/claude/realrun/reports/junit_regression.xml -----
+=========================== short test summary info ============================
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_010 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_014 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_023 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_024 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_026 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_046 - AssertionError: DEF-0...
+FAILED 01_Black_Box/test_black_box.py::test_tc_bb_049 - AssertionError: DEF-0...
+FAILED 02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_004 - Assertion...
+FAILED 02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_010 - Assertion...
+FAILED 02_White_Box_Coverage/test_helpers_unit.py::test_tc_wb_021 - Assertion...
+FAILED 04_Web_API/test_api.py::test_tc_api_005 - AssertionError: DEF-004: dup...
+FAILED 04_Web_API/test_api.py::test_tc_api_017 - AssertionError: server error...
+FAILED 04_Web_API/test_api.py::test_tc_api_033 - AssertionError: server error...
+FAILED 04_Web_API/test_api.py::test_tc_api_035 - assert 200 == 400
+FAILED 04_Web_API/test_api.py::test_tc_api_036 - AssertionError: DEF-010: str...
+FAILED 04_Web_API/test_api.py::test_tc_api_042 - AssertionError: DEF-005: qa_...
+FAILED 04_Web_API/test_api.py::test_tc_api_045 - AssertionError: DEF-001: {'t...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_003 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_006 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_008 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_010 - AssertionE...
+FAILED 05_Security_Performance/test_security.py::test_tc_sec_012 - AssertionE...
+================= 22 failed, 26 passed, 89 deselected in 7.63s =================
