@@ -15,7 +15,7 @@
 | 11 | Automation & regression | Pyramid, POM, 52-test regression suite, reflection | Automation |
 | 12 | Metrics | Results by phase, defects by severity/area, defect density caveat | Defects & Metrics |
 | 13 | Residual risk & recommendations | Fix-now list; untested areas | Lead |
-| 14 | Standards | ISO/IEC 25010 coverage, CI/CD pipeline, CMMI level | Lead |
+| 14 | Standards | ISO/IEC 25010 coverage, CI/CD pipeline, ISO 9001 and CMMI (no level claimed) | Lead |
 | 15 | Live demo | see `Live_Demo_Script.md` | Automation |
 | 16 | Lessons learned + Q&A | Boundaries hide defects; coverage ≠ correctness; test the API directly | All |
 

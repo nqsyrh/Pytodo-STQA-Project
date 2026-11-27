@@ -14,7 +14,9 @@
 
 Also not adequately evaluated: availability and recoverability, capacity on a real server, and accessibility with real users.
 
-**Other standards:** IEEE 829 shaped our test plan, test case and defect report structure. Our weekly cycle of plan → test → review → adjust mirrors ISO 9001's Plan-Do-Check-Act. **CMMI:** the original development shows no evidence of reviews, standards or automated checks, which is typical of Level 1 (Initial). Our project introduces defined test processes (Level 3 practices) and metrics, a first step toward Level 4 (Quantitatively Managed).
+**Other standards:** IEEE 829 shaped our test plan, test case and defect report structure. Our weekly cycle of plan → test → review → adjust mirrors ISO 9001's Plan-Do-Check-Act. **CMMI:** we use CMMI only to discuss process maturity, not to assign a level, because no appraisal took place. We found no evidence of reviews, coding standards or automated checks in the original development; that is an improvement opportunity. Our project adds defined, repeatable test practices (a test plan, one test catalogue, traceability, measured metrics), which are the kind of practices CMMI's higher levels expect.
+
+**What we do not claim:** ISO certification, ISO/IEC 25010 conformity, a CMMI maturity level, or a CI pipeline that has passed. `.github/workflows/qa.yml` is ready to run; it will stay red until the defects are fixed, by design. The ISO/IEC 25010 terms above follow the 2011 model used in class (the 2023 edition renames usability to interaction capability and portability to flexibility, and adds safety).
 
 ## 2. Regression tests in CI/CD and continuous testing
 `.github/workflows/qa.yml` runs cheap checks first and stops the pipeline early:

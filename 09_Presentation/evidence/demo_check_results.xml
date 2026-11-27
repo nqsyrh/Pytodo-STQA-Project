@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="0.835" timestamp="2026-11-27T21:49:48.568923+08:00" hostname="vm"><testcase classname="04_Web_API.test_api" name="test_tc_api_024" time="0.360" /><testcase classname="04_Web_API.test_api" name="test_tc_api_042" time="0.316"><properties><property name="defect" value="DEF-005" /><property name="defect" value="DEF-005" /></properties><failure message="AssertionError: DEF-005: qa_user1 deleted qa_user2's task&#10;assert (200 in (403, 404))&#10; +  where 200 = &lt;WrapperTestResponse streamed [200 OK]&gt;.status_code">04_Web_API/test_api.py:301: in test_tc_api_042
+    assert r.status_code in (403, 404) and still_there, "DEF-005: qa_user1 deleted qa_user2's task"
+E   AssertionError: DEF-005: qa_user1 deleted qa_user2's task
+E   assert (200 in (403, 404))
+E    +  where 200 = &lt;WrapperTestResponse streamed [200 OK]&gt;.status_code</failure></testcase><testcase classname="04_Web_API.test_api" name="test_tc_api_043" time="0.009" /></testsuite></testsuites>
