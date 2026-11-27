@@ -1,0 +1,16 @@
+users,request,avg_ms,p95_ms,req_s_total,errors,result
+1,GET /api/tasks,4.4,5,0.72,0,Pass
+1,GET /api/dashboard,5.0,6,0.72,0,Pass
+1,POST /api/login,117.3,120,0.72,0,Pass
+10,GET /api/tasks,4.2,6,6.87,0,Pass
+10,GET /api/dashboard,6.0,11,6.87,0,Pass
+10,POST /api/login,567.3,610,6.87,0,Pass
+25,GET /api/tasks,5.4,9,17.06,0,Pass
+25,GET /api/dashboard,6.9,10,17.06,0,Pass
+25,POST /api/login,1105.9,1200,17.06,0,Fail
+50,GET /api/tasks,7.0,9,33.15,0,Pass
+50,GET /api/dashboard,10.1,12,33.15,0,Pass
+50,POST /api/login,2105.8,2500,33.15,0,Fail
+100,GET /api/tasks,5.9,16,61.36,0,Pass
+100,GET /api/dashboard,12.2,45,61.36,0,Pass
+100,POST /api/login,482.9,560,61.36,0,Pass

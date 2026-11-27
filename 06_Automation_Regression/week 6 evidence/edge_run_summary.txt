@@ -1,0 +1,12 @@
+Selenium UI suite in Microsoft Edge 158.0.4370.33 on Windows 11 (member laptop, 27 Nov 2026)
+Command: run_browser_tests.bat edge   (pytest -m ui, BROWSER=edge, HEADLESS=0)
+Transcribed from the console output.
+
+Run 2 (recorded result):
+test_at_001 PASSED   test_at_002 FAILED (DEF-002)   test_at_003 PASSED   test_at_004 FAILED (DEF-001)
+test_at_005 PASSED   test_at_006 PASSED   test_at_007 PASSED   test_at_008 FAILED (DEF-007)
+test_at_009 PASSED   test_at_010 PASSED
+3 failed, 7 passed, 137 deselected in 94.40s
+
+Run 1: identical except test_at_003 failed with a Selenium timing exception (not an app defect);
+it passed on the re-run. This is the flaky-test behaviour noted in the automation reflection.
