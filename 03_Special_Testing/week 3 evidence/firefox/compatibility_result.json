@@ -1,6 +1,5 @@
 {
   "browser": "firefox 161.0 on windows",
-  "run": "27 Nov 2026, member laptop (Windows 11), run_browser_tests.bat firefox",
   "checks": {
     "register_and_login": "Pass",
     "create_tasks": "Pass",
@@ -9,6 +8,5 @@
     "no_sideways_scroll_tablet": "Pass",
     "no_sideways_scroll_phone": "Fail (DEF-023: sideways scroll)",
     "logout_protects_pages": "Pass"
-  },
-  "reviewer_note": "index_phone.png: table wider than the window, Delete link cut off ('Dele'); due-today task labelled Overdue."
+  }
 }
