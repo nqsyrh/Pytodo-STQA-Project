@@ -1,8 +1,11 @@
 # PyTodo Pro – Software Testing and Quality Assurance Project
 
 **Course:** TFB3433 Software Testing and Quality Assurance
+
 **Semester:** September 2026
+
 **Lecturer:** Dr. Abdullateef Oluwagbemiga Balogun
+
 **Application under test:** PyTodo Pro
 
 ## Team details
