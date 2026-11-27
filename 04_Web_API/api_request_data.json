@@ -1,0 +1,278 @@
+[
+  {
+    "id": "TC-API-001",
+    "objective": "Register valid user",
+    "request": "POST /api/register {username:'api_ok', password:'Passw0rd!'}",
+    "expected": "201; {id, username}"
+  },
+  {
+    "id": "TC-API-002",
+    "objective": "Short username rejected",
+    "request": "{username:'ab', password:'Passw0rd!'}",
+    "expected": "400 with error"
+  },
+  {
+    "id": "TC-API-003",
+    "objective": "Short password rejected",
+    "request": "{username:'api_pw', password:'short'}",
+    "expected": "400 with error"
+  },
+  {
+    "id": "TC-API-004",
+    "objective": "Missing fields rejected",
+    "request": "{}",
+    "expected": "400"
+  },
+  {
+    "id": "TC-API-005",
+    "objective": "Duplicate username rejected",
+    "request": "register 'api_dup' twice",
+    "expected": "Second call 400/409 'username taken'"
+  },
+  {
+    "id": "TC-API-006",
+    "objective": "Number as username rejected cleanly",
+    "request": "{username: 12345, password:'Passw0rd!'}",
+    "expected": "400 (not 500)"
+  },
+  {
+    "id": "TC-API-007",
+    "objective": "Login valid",
+    "request": "POST /api/login qa_user1",
+    "expected": "200; session cookie"
+  },
+  {
+    "id": "TC-API-008",
+    "objective": "Wrong password",
+    "request": "qa_user1 / WrongPass1",
+    "expected": "401"
+  },
+  {
+    "id": "TC-API-009",
+    "objective": "Unknown user",
+    "request": "ghost / Passw0rd!",
+    "expected": "401"
+  },
+  {
+    "id": "TC-API-010",
+    "objective": "Task list needs login",
+    "request": "GET /api/tasks without login",
+    "expected": "401"
+  },
+  {
+    "id": "TC-API-011",
+    "objective": "Categories need login (README: all except register/login)",
+    "request": "GET /api/categories without login",
+    "expected": "401"
+  },
+  {
+    "id": "TC-API-012",
+    "objective": "Categories listed when logged in",
+    "request": "GET /api/categories",
+    "expected": "200; Work, Personal, Study, Urgent"
+  },
+  {
+    "id": "TC-API-013",
+    "objective": "Create task with all fields",
+    "request": "{title:'API task', category_id:1, due_date: today+3}",
+    "expected": "201; task JSON"
+  },
+  {
+    "id": "TC-API-014",
+    "objective": "Create task with title only",
+    "request": "{title:'Only title'}",
+    "expected": "201"
+  },
+  {
+    "id": "TC-API-015",
+    "objective": "Missing title rejected",
+    "request": "{category_id:1}",
+    "expected": "400 'title is required'"
+  },
+  {
+    "id": "TC-API-016",
+    "objective": "Number as title handled cleanly",
+    "request": "{title: 123}",
+    "expected": "400 or 201 with title '123' (not 500)"
+  },
+  {
+    "id": "TC-API-017",
+    "objective": "Impossible date rejected",
+    "request": "{title:'x', due_date:'2026-13-45'}",
+    "expected": "400; task not stored"
+  },
+  {
+    "id": "TC-API-018",
+    "objective": "Wrong date format rejected",
+    "request": "{title:'x', due_date:'21/11/2026'}",
+    "expected": "400; task not stored"
+  },
+  {
+    "id": "TC-API-019",
+    "objective": "Unknown category id rejected",
+    "request": "{title:'x', category_id: 999}",
+    "expected": "400"
+  },
+  {
+    "id": "TC-API-020",
+    "objective": "Non-JSON body gets a clear error",
+    "request": "text/plain body 'hello'",
+    "expected": "400/415 saying body must be JSON"
+  },
+  {
+    "id": "TC-API-021",
+    "objective": "Very long title limited",
+    "request": "{title: 'a'*5000}",
+    "expected": "400 (documented maximum length)"
+  },
+  {
+    "id": "TC-API-022",
+    "objective": "Get own task by id",
+    "request": "GET /api/tasks/<own id>",
+    "expected": "200; task JSON"
+  },
+  {
+    "id": "TC-API-023",
+    "objective": "Unknown id",
+    "request": "GET /api/tasks/99999",
+    "expected": "404"
+  },
+  {
+    "id": "TC-API-024",
+    "objective": "Other user's task hidden",
+    "request": "GET /api/tasks/<qa_user2 id> as qa_user1",
+    "expected": "404"
+  },
+  {
+    "id": "TC-API-025",
+    "objective": "List newest first",
+    "request": "3 tasks created in order",
+    "expected": "200; newest first"
+  },
+  {
+    "id": "TC-API-026",
+    "objective": "page=0, per_page=2 returns 2",
+    "request": "5 tasks",
+    "expected": "200; 2 items"
+  },
+  {
+    "id": "TC-API-027",
+    "objective": "Negative page rejected",
+    "request": "?page=-1",
+    "expected": "400"
+  },
+  {
+    "id": "TC-API-028",
+    "objective": "per_page=0 rejected",
+    "request": "?per_page=0",
+    "expected": "400"
+  },
+  {
+    "id": "TC-API-029",
+    "objective": "Page beyond end returns empty list",
+    "request": "?page=50",
+    "expected": "200; []"
+  },
+  {
+    "id": "TC-API-030",
+    "objective": "Category filter",
+    "request": "?category=Work",
+    "expected": "Only Work tasks"
+  },
+  {
+    "id": "TC-API-031",
+    "objective": "Status done filter",
+    "request": "?status=done",
+    "expected": "Only done tasks"
+  },
+  {
+    "id": "TC-API-032",
+    "objective": "Search partial title",
+    "request": "?q=repo",
+    "expected": "'Write report' returned"
+  },
+  {
+    "id": "TC-API-033",
+    "objective": "Search with an apostrophe works like the web UI",
+    "request": "?q=Mum's",
+    "expected": "200 with the task (web UI works: TC-BB-044)"
+  },
+  {
+    "id": "TC-API-034",
+    "objective": "PUT title only",
+    "request": "{title:'Renamed'}",
+    "expected": "200; title changed; other fields kept"
+  },
+  {
+    "id": "TC-API-035",
+    "objective": "PUT empty title rejected",
+    "request": "{title:''}",
+    "expected": "400; title unchanged"
+  },
+  {
+    "id": "TC-API-036",
+    "objective": "done='false' (string) not treated as true",
+    "request": "{done:'false'}",
+    "expected": "400, or done stays false"
+  },
+  {
+    "id": "TC-API-037",
+    "objective": "PUT other user's task refused",
+    "request": "PUT /api/tasks/<qa_user2 id>",
+    "expected": "404"
+  },
+  {
+    "id": "TC-API-038",
+    "objective": "PUT unknown id",
+    "request": "PUT /api/tasks/99999",
+    "expected": "404"
+  },
+  {
+    "id": "TC-API-039",
+    "objective": "PUT impossible date rejected",
+    "request": "{due_date:'2026-13-45'}",
+    "expected": "400; task still readable"
+  },
+  {
+    "id": "TC-API-040",
+    "objective": "Delete own task",
+    "request": "DELETE /api/tasks/<own id>",
+    "expected": "200; task gone"
+  },
+  {
+    "id": "TC-API-041",
+    "objective": "Delete unknown id returns 404",
+    "request": "DELETE /api/tasks/99999",
+    "expected": "404"
+  },
+  {
+    "id": "TC-API-042",
+    "objective": "Cannot delete another user's task",
+    "request": "DELETE qa_user2's task as qa_user1",
+    "expected": "404/403; qa_user2's task still exists"
+  },
+  {
+    "id": "TC-API-043",
+    "objective": "Delete needs login",
+    "request": "DELETE without login",
+    "expected": "401"
+  },
+  {
+    "id": "TC-API-044",
+    "objective": "Dashboard counts",
+    "request": "Seeded tasks",
+    "expected": "Correct total/open/overdue/due_soon/completed_this_week"
+  },
+  {
+    "id": "TC-API-045",
+    "objective": "Task due today not counted as overdue",
+    "request": "One open task due today",
+    "expected": "overdue 0"
+  },
+  {
+    "id": "TC-API-046",
+    "objective": "Dashboard needs login",
+    "request": "GET /api/dashboard without login",
+    "expected": "401"
+  }
+]
