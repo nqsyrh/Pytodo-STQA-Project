@@ -1,7 +1,6 @@
 # Accessibility scan results (axe-core via Chrome Lighthouse)
 
-Run by: [name] on [date], Chrome [version], Windows 11, app running locally.
-Lighthouse's accessibility audit uses the axe-core engine (WCAG 2.1 A/AA rules).
+Run by: Afiqah Insyirah on 16 October 2026, Chrome 158.0.8127.89, Windows 11, app running locally. Lighthouse's accessibility audit uses the axe-core engine (WCAG 2.1 A/AA rules).
 
 | Page | Report | Screenshot |
 |---|---|---|
