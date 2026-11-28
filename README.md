@@ -12,8 +12,8 @@
 
 This project was completed by the following group members (Information Technology):
 
-| Name | Student ID | Coordination role |
-|---|---|---|
+| Name | Student ID | 
+|---|---|
 | Nureen Nellysha Binti Norazizi | 22006973 | 
 | Nurul Afiqah Insyirah Binti Abu | 22002020 |
 
