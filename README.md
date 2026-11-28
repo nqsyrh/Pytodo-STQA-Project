@@ -14,10 +14,8 @@ This project was completed by the following group members (Information Technolog
 
 | Name | Student ID | Coordination role |
 |---|---|---|
-| Nureen Nellysha Binti Norazizi | 22006973 | QA / Test Lead |
-| Nurul Afiqah Insyirah Binti Abu | 22002020 | Test Design Coordinator |
-| Shervona Faith Julian | 22006681 | Automation / Tool Coordinator |
-| Nur Syafiqah Binti Mohd Nor Fadzil | 22005709 | Defect & Metrics Coordinator |
+| Nureen Nellysha Binti Norazizi | 22006973 | 
+| Nurul Afiqah Insyirah Binti Abu | 22002020 |
 
 ## Project overview
 
